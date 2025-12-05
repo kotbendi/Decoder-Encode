@@ -1,6 +1,6 @@
 using System.Text;
 using System;
-using System.Runtime.InteropServices; // you can remove this if you code this program on visual studio 2022/2026
+using System.Runtime.InteropServices; // you can remove this if you code this program on visual studio 2022/2026 or if you on linux
 namespace Myprogram
 {
     class Progra
@@ -9,7 +9,7 @@ namespace Myprogram
         static extern bool AllocConsole();
         static void Main(string[] agrs)
         {
-            AllocConsole(); // you can remove this if you code this program on visual studio 2022/2026
+            AllocConsole(); // you can remove this if you code this program on visual studio 2022/2026 or if you on linux
             string inputtype;
             string inputstring;
             Console.Write("What you wanna 1.decode 2.encode: ");
