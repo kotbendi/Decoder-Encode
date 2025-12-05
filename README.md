@@ -1,3 +1,5 @@
 # Decoder-Encode
-you can Decode or Encdoe suppor type UTF8 UTF32 ASCII
-if this project get 2star i make big update
+
+You can decode or encode. Support types: UTF8, UTF32, ASCII.
+
+If this project gets 2 stars, I will make a big update.
