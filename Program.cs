@@ -1,12 +1,15 @@
 using System.Text;
 using System;
-
+using System.Runtime.InteropServices; // you can remove this if you code this program on visual studio 2022/2026
 namespace Myprogram
 {
     class Progra
     {
+        [DllImport("kernel32.dll", SetLastError = true)]
+        static extern bool AllocConsole();
         static void Main(string[] agrs)
         {
+            AllocConsole(); // you can remove this if you code this program on visual studio 2022/2026
             string inputtype;
             string inputstring;
             Console.Write("What you wanna 1.decode 2.encode: ");
